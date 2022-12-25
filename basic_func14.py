@@ -8,4 +8,8 @@ def main(a, b):
     Returns:
         int: the result.
     '''
-    return 
+    result = a//b
+    return result
+a = 245
+b = 6
+print(main(a, b))
