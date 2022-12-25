@@ -6,5 +6,10 @@ def main(a):
         
     Returns:
         float: the absolute value.
-    '''
-    return
+    ''' 
+    from math import sqrt
+    a = sqrt(a)
+    a = abs(a)
+    return a
+a = 9
+print(main(a))
