@@ -7,4 +7,7 @@ def main(a):
     Returns:
         float: the result
     '''
-    return
+    a = round(a, 2)
+    return a
+a = 7.83487
+print(main(a))
