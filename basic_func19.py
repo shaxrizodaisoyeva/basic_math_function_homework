@@ -8,4 +8,9 @@ def main(a, b):
     Returns:
         int: the result.
     '''
-    return
+    result = a-b
+    result = abs(result)
+    return result
+a = 89
+b = 679
+print(main(a, b))
